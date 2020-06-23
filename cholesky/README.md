@@ -8,4 +8,5 @@
 | SWIG - CPP |   2.16 |  |
 | Cython - Numpy |    44.7 |  |
 | Python - Numpy |   71.4 |  |
+| javascript - node |   294 | ref |
 | Python - Native |   319 |  |
