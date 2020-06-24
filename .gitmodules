@@ -1,0 +1,4 @@
+[submodule "cholesky/swig-eigen/eigen"]
+	path = cholesky/swig-eigen/eigen
+	url = https://gitlab.com/libeigen/eigen.git
+	branch = 3.3
