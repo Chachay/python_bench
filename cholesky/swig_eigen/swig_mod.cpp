@@ -2,7 +2,7 @@
 #define __SWIG_CPP
 
 #include "swig_mod.hpp"
-#include "eigen/Eigen/Cholesky"
+#include <Eigen/Cholesky>
 
 Eigen::MatrixXd cholesky_swig_eigen(const Eigen::MatrixXd &M) {
     Eigen::LLT<Eigen::MatrixXd> lltOfM(M);
