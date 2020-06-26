@@ -11,7 +11,7 @@ except AttributeError:
 _SwigMod = Extension("_swig_eigen_mod",
                    ["swig_mod.i","swig_mod.cpp"],
                    swig_opts=['-c++', '-py3'],
-                   include_dirs = [numpy_include, "./eigen"]
+                   include_dirs = [numpy_include, "../../eigen"]
                    )
 
 setup(  name        = "SwigMod function",
