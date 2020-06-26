@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 node_modules/
-*_wrap.cpp
+/*_wrap.cpp
